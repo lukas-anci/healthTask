@@ -1,5 +1,6 @@
 import classes from './Hero.module.css';
 import React from 'react';
+import Button from '../../UI/Button';
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
 
             <span>9.99/month</span>
             <span className={classes.circle}>
-              <i class="far fa-check-circle"></i>
+              <i className="far fa-check-circle"></i>
             </span>
 
             <p>
@@ -37,7 +38,7 @@ const Hero = () => {
 
             <span>14.99/month</span>
             <span className={classes['circle-not-complete']}>
-              <i class="far fa-circle"></i>
+              <i className="far fa-circle"></i>
             </span>
 
             <p>
@@ -53,10 +54,13 @@ const Hero = () => {
 
             <span>19.99/month</span>
             <span className={classes['circle-not-complete']}>
-              <i class="far fa-circle"></i>
+              <i className="far fa-circle"></i>
             </span>
 
             <p>Billed monthly</p>
+          </div>
+          <div className={classes.button}>
+            <Button>Get your plan</Button>
           </div>
         </div>
         <div className={classes['hero-program']}>

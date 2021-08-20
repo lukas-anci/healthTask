@@ -1,6 +1,7 @@
 import classes from './Clients.module.css';
 
 import React from 'react';
+import Button from '../../UI/Button';
 
 const Clients = () => {
   return (
@@ -38,8 +39,9 @@ const Clients = () => {
           </p>
         </div>
       </div>
-
-      <button>Get My Plan</button>
+      <div className={classes.button}>
+        <Button>Get my plan</Button>
+      </div>
     </div>
   );
 };
