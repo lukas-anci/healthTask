@@ -1,0 +1,24 @@
+.header {
+  height: 10rem;
+}
+
+.discount {
+  height: 5rem;
+  background-color: lightseagreen;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: lightgray;
+}
