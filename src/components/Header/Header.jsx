@@ -1,6 +1,5 @@
 import classes from './Header.module.css';
 import React from 'react';
-import { default as Svg } from '../../assets/yoga.svg';
 
 const Header = () => {
   return (
