@@ -1,21 +1,18 @@
-.container {
-  width: 50%;
-  margin: 0 auto;
-}
 .order {
   text-align: center;
 }
 .hero-container {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 .hero-plan-complete {
   border: 5px solid #ff6550;
   border-radius: 10px 10px 10px 10px;
   padding: 1rem;
+  margin-bottom: 1em;
 }
-.plan {
-}
+
 .save {
   background-color: yellow;
   border-radius: 10px 10px 10px 10px;
@@ -26,6 +23,26 @@
   font-size: 1.2em;
   color: #ff6550;
 }
+.circle-not-complete {
+  float: right;
+  font-size: 1.2em;
+  color: grey;
+}
 .sale {
   color: #ff6550;
+}
+
+.hero-plan-not-complete {
+  border: 5px solid grey;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1rem;
+  margin-bottom: 1em;
+}
+
+.hero-program-card {
+  display: flex;
+  gap: 1em;
+}
+.image img {
+  border-radius: 4px;
 }
