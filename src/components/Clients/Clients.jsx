@@ -6,11 +6,11 @@ import Button from '../../UI/Button';
 const Clients = () => {
   return (
     <div className="container">
-      <h3>Hear succes stories from our clients</h3>
+      <h3>Hear success stories from our clients</h3>
       <div className={classes['card-container']}>
         <div className={classes.card}>
-          <h4>Emily,28</h4>
-          <h5>Delaware,NJ</h5>
+          <h4>Emily, 28</h4>
+          <h5>Delaware, NJ</h5>
           <img src="https://picsum.photos/id/1/100/100" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
@@ -19,8 +19,8 @@ const Clients = () => {
           </p>
         </div>
         <div className={classes.card}>
-          <h4>Emily,28</h4>
-          <h5>Delaware,NJ</h5>
+          <h4>Emily, 28</h4>
+          <h5>Delaware, NJ</h5>
           <img src="https://picsum.photos/id/1/100/100" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
@@ -29,8 +29,8 @@ const Clients = () => {
           </p>
         </div>
         <div className={classes.card}>
-          <h4>Emily,28</h4>
-          <h5>Delaware,NJ</h5>
+          <h4>Emily, 28</h4>
+          <h5>Delaware, NJ</h5>
           <img src="https://picsum.photos/id/1/100/100" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi

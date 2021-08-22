@@ -5,18 +5,25 @@ import Button from '../../UI/Button';
 const Hero = (props) => {
   return (
     <div className="container">
-      <span className={classes.order}>
-        Over <b>52 147</b> plans ordered
-      </span>
+      {/* props start passed at App.jsx */}
+      {!props.start && (
+        <span className={classes.order}>
+          Over <b>52 147</b> plans ordered
+        </span>
+      )}
+
       {props.start ? (
-        <h1>Start your yoga program today!</h1>
+        <h1 className={classes.access}>Start your yoga program today!</h1>
       ) : (
-        <h1>Get access to your yoga program now!</h1>
+        <h1 className={classes.access}>Get access to your yoga program now!</h1>
       )}
 
       <div className={classes['hero-container']}>
         <div className={classes['hero-plan']}>
-          <p>Choose your plan and get 7 days free</p>
+          <p>
+            Choose your plan and get{' '}
+            <span className={classes.trial}>7 days free</span>
+          </p>
           <div className={classes['hero-plan-complete']}>
             <span className={classes.plan}>
               <b>6 months plan</b>
@@ -69,7 +76,7 @@ const Hero = (props) => {
           </div>
         </div>
         <div className={classes['hero-program']}>
-          <p>Whats in my program</p>
+          <p>What's in my program?</p>
           <div className={classes['hero-program-card']}>
             <div className={classes.image}>
               <img src="https://picsum.photos/150/200" alt="" />

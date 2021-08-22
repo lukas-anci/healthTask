@@ -3,7 +3,6 @@
 }
 .hero-container {
   display: flex;
-  /* flex-direction: column; */
   gap: 1rem;
 }
 .hero-plan-complete {
@@ -17,6 +16,9 @@
   background-color: yellow;
   border-radius: 10px 10px 10px 10px;
   float: right;
+}
+.trial {
+  color: #ff6550;
 }
 .circle {
   float: right;
@@ -50,4 +52,12 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  .hero-container {
+    flex-direction: column;
+  }
 }

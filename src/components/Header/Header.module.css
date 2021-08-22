@@ -21,4 +21,9 @@
   height: 1px;
   width: 100%;
   background-color: lightgray;
+  margin-bottom: 1em;
+}
+
+.access {
+  white-space: nowrap;
 }
