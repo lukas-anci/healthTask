@@ -7,7 +7,7 @@ import Faq from './components/Faq/Faq';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
       <Hero />
       <Clients />

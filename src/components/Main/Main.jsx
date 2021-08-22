@@ -6,12 +6,12 @@ const Main = () => {
   return (
     <div className="container">
       <div className={classes['main-container']}>
-        <div>
-          <h4>Start your yoga journey now!</h4>
+        <div className={classes['main-container-intro']}>
+          <h2>Start your yoga journey now!</h2>
           <img src="https://picsum.photos/id/1/200/300" alt="" />
         </div>
         <div>
-          <h4>Is Positive Yoga right for me?</h4>
+          <h2>Is Positive Yoga right for me?</h2>
           <p>
             <i className="far green fa-check-circle"></i>{' '}
             <span>Each Program adapts to your age or fitness level</span>

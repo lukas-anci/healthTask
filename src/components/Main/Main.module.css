@@ -2,6 +2,9 @@
   display: flex;
   gap: 1em;
 }
+.main-container-intro {
+  flex-grow: 1;
+}
 
 @media only screen and (max-width: 600px) {
   .main-container {

@@ -35,11 +35,11 @@ const Faq = () => {
   };
   return (
     <div className="container">
-      <h1>Frequently asked questions</h1>
+      <h2>Frequently asked questions</h2>
       {data.map((item, i) => (
         <div key={i} className={classes.item}>
           <div onClick={() => toggle(i)} className={classes.title}>
-            <h2>{item.question}</h2>
+            <h3>{item.question}</h3>
             <span>{select === i ? '-' : '+'}</span>
           </div>
           {select === i ? (

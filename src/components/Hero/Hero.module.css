@@ -5,6 +5,9 @@
   display: flex;
   gap: 1rem;
 }
+.hero-plan {
+  flex-grow: 1;
+}
 .hero-plan-complete {
   border: 5px solid #ff6550;
   border-radius: 10px 10px 10px 10px;

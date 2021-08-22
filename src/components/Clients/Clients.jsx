@@ -6,7 +6,7 @@ import Button from '../../UI/Button';
 const Clients = () => {
   return (
     <div className="container">
-      <h3>Hear success stories from our clients</h3>
+      <h2>Hear success stories from our clients</h2>
       <div className={classes['card-container']}>
         <div className={classes.card}>
           <h4>Emily, 28</h4>
