@@ -2,13 +2,18 @@ import classes from './Hero.module.css';
 import React from 'react';
 import Button from '../../UI/Button';
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="container">
       <span className={classes.order}>
         Over <b>52 147</b> plans ordered
       </span>
-      <h1>Get access to your yoga program now!</h1>
+      {props.start ? (
+        <h1>Start your yoga program today!</h1>
+      ) : (
+        <h1>Get access to your yoga program now!</h1>
+      )}
+
       <div className={classes['hero-container']}>
         <div className={classes['hero-plan']}>
           <p>Choose your plan and get 7 days free</p>
