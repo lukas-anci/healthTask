@@ -2,13 +2,16 @@ import classes from './Main.module.css';
 
 import React from 'react';
 
+import Yoga from '../../img/yoga.svg';
+
 const Main = () => {
   return (
     <div className="container">
       <div className={classes['main-container']}>
         <div className={classes['main-container-intro']}>
           <h2>Start your yoga journey now!</h2>
-          <img src="https://picsum.photos/id/1/200/300" alt="" />
+          <img className={classes.yoga} src={Yoga} alt="" />
+          {/* 200/300 */}
         </div>
         <div>
           <h2>Is Positive Yoga right for me?</h2>

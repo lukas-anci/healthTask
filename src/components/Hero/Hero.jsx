@@ -25,11 +25,15 @@ const Hero = (props) => {
             <span className={classes.trial}>7 days free</span>
           </p>
           <div className={classes['hero-plan-complete']}>
-            <span className={classes.plan}>
-              <b>6 months plan</b>
+            <div className={classes.plan}>
+              <div>
+                <b>6 months plan</b>
+              </div>
 
-              <span className={classes.save}>Save 50%</span>
-            </span>
+              <div>
+                <span className={classes.save}>Save 50%</span>
+              </div>
+            </div>
             <br />
 
             <span>9.99/month</span>

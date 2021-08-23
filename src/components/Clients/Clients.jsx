@@ -11,7 +11,7 @@ const Clients = () => {
         <div className={classes.card}>
           <h4>Emily, 28</h4>
           <h5>Delaware, NJ</h5>
-          <img src="https://picsum.photos/id/1/100/100" alt="" />
+          <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
             expedita repudiandae beatae eligendi accusantium sint atque quae
@@ -21,7 +21,7 @@ const Clients = () => {
         <div className={classes.card}>
           <h4>Emily, 28</h4>
           <h5>Delaware, NJ</h5>
-          <img src="https://picsum.photos/id/1/100/100" alt="" />
+          <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
             expedita repudiandae beatae eligendi accusantium sint atque quae
@@ -31,7 +31,7 @@ const Clients = () => {
         <div className={classes.card}>
           <h4>Emily, 28</h4>
           <h5>Delaware, NJ</h5>
-          <img src="https://picsum.photos/id/1/100/100" alt="" />
+          <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
             expedita repudiandae beatae eligendi accusantium sint atque quae
