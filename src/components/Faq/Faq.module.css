@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.content {
+/* .content {
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
@@ -21,7 +21,7 @@
   height: auto;
   max-height: 9px;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-}
+} */
 .button {
   display: flex;
   justify-content: center;

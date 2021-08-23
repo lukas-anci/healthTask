@@ -1,6 +1,8 @@
 import classes from './Hero.module.css';
 import React from 'react';
 import Button from '../../UI/Button';
+import YogaNew from '../../img/yoga1.svg';
+import YogaNew1 from '../../img/yoga2.svg';
 
 const Hero = (props) => {
   return (
@@ -36,7 +38,7 @@ const Hero = (props) => {
             </div>
             <br />
 
-            <span>9.99/month</span>
+            <span className={classes.price}>$9.99/month</span>
             <span className={classes.circle}>
               <i className="far fa-check-circle"></i>
             </span>
@@ -52,7 +54,7 @@ const Hero = (props) => {
             </span>
             <br />
 
-            <span>14.99/month</span>
+            <span className={classes.price}>$14.99/month</span>
             <span className={classes['circle-not-complete']}>
               <i className="far fa-circle"></i>
             </span>
@@ -68,7 +70,7 @@ const Hero = (props) => {
               <br />
             </span>
 
-            <span>19.99/month</span>
+            <span className={classes.price}>$19.99/month</span>
             <span className={classes['circle-not-complete']}>
               <i className="far fa-circle"></i>
             </span>
@@ -83,7 +85,7 @@ const Hero = (props) => {
           <p>What's in my program?</p>
           <div className={classes['hero-program-card']}>
             <div className={classes.image}>
-              <img src="https://picsum.photos/150/200" alt="" />
+              <img src={YogaNew} alt="" />
             </div>
             <div>
               <h4>A personalized yoga program</h4>
@@ -92,7 +94,16 @@ const Hero = (props) => {
           </div>
           <div className={classes['hero-program-card']}>
             <div className={classes.image}>
-              <img src="https://picsum.photos/150/200" alt="" />
+              <img src={YogaNew1} alt="" />
+            </div>
+            <div>
+              <h4>A personalized yoga program</h4>
+              <span>Completely safe and focused on your key goals</span>
+            </div>
+          </div>
+          <div className={classes['hero-program-card']}>
+            <div className={classes.image}>
+              <img src={YogaNew} alt="" />
             </div>
             <div>
               <h4>A personalized yoga program</h4>

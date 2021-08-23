@@ -43,7 +43,7 @@ const Faq = () => {
             <span>{select === i ? '-' : '+'}</span>
           </div>
           {select === i ? (
-            <div className={select === i ? 'content show' : 'content'}>
+            <div>
               <p>{item.answer}</p>
             </div>
           ) : null}
