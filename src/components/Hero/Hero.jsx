@@ -9,9 +9,9 @@ const Hero = (props) => {
     <div className="container">
       {/* props start passed at App.jsx */}
       {!props.start && (
-        <span className={classes.order}>
+        <p className={classes.order}>
           Over <b>52 147</b> plans ordered
-        </span>
+        </p>
       )}
 
       {props.start ? (

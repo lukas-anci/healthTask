@@ -11,19 +11,18 @@
   cursor: pointer;
 }
 
-/* .content {
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-}
-
-.content.show {
-  height: auto;
-  max-height: 9px;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-} */
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.faq {
+  text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .faq {
+    text-align: left;
+  }
 }

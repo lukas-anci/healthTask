@@ -35,7 +35,7 @@ const Faq = () => {
   };
   return (
     <div className="container">
-      <h2>Frequently asked questions</h2>
+      <h2 className={classes.faq}>Frequently asked questions</h2>
       {data.map((item, i) => (
         <div key={i} className={classes.item}>
           <div onClick={() => toggle(i)} className={classes.title}>
